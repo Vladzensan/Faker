@@ -4,7 +4,7 @@ namespace Faker
 {
     public interface IFaker
     {
-        T Create<T>(T type);
+        T Create<T>();
         bool IsCreatable(Type type);
     }
 }
