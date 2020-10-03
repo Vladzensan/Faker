@@ -59,7 +59,16 @@ namespace Faker
 
         public bool IsGeneratable(Type type)
         {
-            throw new NotImplementedException();
+            if (type == typeof(byte) || type == typeof(sbyte) || type == typeof(short)
+                || type == typeof(ushort) || type == typeof(int) || type == typeof(uint)
+                || type == typeof(long) || type == typeof(ulong) || type == typeof(float)
+                || type == typeof(double) || type == typeof(decimal) || type == typeof(char)
+                || type == typeof(string) || type == typeof(bool))
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }
