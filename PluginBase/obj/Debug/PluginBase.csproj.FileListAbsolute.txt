@@ -1,0 +1,6 @@
+C:\Users\Vladzensan\source\repos\FakerSolution\PluginBase\bin\Debug\PluginBase.dll
+C:\Users\Vladzensan\source\repos\FakerSolution\PluginBase\bin\Debug\PluginBase.pdb
+C:\Users\Vladzensan\source\repos\FakerSolution\PluginBase\obj\Debug\PluginBase.csprojAssemblyReference.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\PluginBase\obj\Debug\PluginBase.csproj.CoreCompileInputs.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\PluginBase\obj\Debug\PluginBase.dll
+C:\Users\Vladzensan\source\repos\FakerSolution\PluginBase\obj\Debug\PluginBase.pdb

@@ -1,0 +1,12 @@
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\bin\Debug\netcoreapp3.1\ObjectFaker.deps.json
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\bin\Debug\netcoreapp3.1\ObjectFaker.dll
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\bin\Debug\netcoreapp3.1\ObjectFaker.pdb
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\bin\Debug\netcoreapp3.1\PluginBase.dll
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\bin\Debug\netcoreapp3.1\PluginBase.pdb
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\obj\Debug\netcoreapp3.1\ObjectFaker.csprojAssemblyReference.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\obj\Debug\netcoreapp3.1\ObjectFaker.csproj.CoreCompileInputs.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\obj\Debug\netcoreapp3.1\ObjectFaker.AssemblyInfoInputs.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\obj\Debug\netcoreapp3.1\ObjectFaker.AssemblyInfo.cs
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\obj\Debug\netcoreapp3.1\ObjectFaker.csproj.CopyComplete
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\obj\Debug\netcoreapp3.1\ObjectFaker.dll
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\obj\Debug\netcoreapp3.1\ObjectFaker.pdb

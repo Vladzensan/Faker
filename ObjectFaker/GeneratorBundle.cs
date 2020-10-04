@@ -1,4 +1,5 @@
-﻿using PluginBase;
+﻿using ObjectFaker;
+using PluginBase;
 using System;
 using System.Collections.Generic;
 
@@ -9,6 +10,20 @@ namespace Faker
         private const string NO_GENERATOR_MSG = "No generator corresponding to type: ";
         private List<IGenerator> generators;
 
+
+        public GeneratorBundle()
+        {
+            PluginLoader<IGenerator> loader = new PluginLoader<IGenerator>();
+
+            string[] pluginPaths =
+           {
+                @"PrimitivesGenerator\bin\Debug\BaseTypeGenerator.dll",
+                @"DateTimeGenerator\bin\Debug\DateTimeGenerator.dll"
+            };
+
+            generators = loader.LoadPlugins(pluginPaths);
+
+        }
         public GeneratorBundle(List<IGenerator> generators)
         {
             this.generators = generators;
