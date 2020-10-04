@@ -30,10 +30,14 @@ namespace Faker
 
         private void SetFieldsAndProps(object obj)
         {
-            obj.GetType().GetFields().ToList()
+            obj.GetType()
+                .GetFields()
+                .ToList()
                 .ForEach(f => f.SetValue(obj, GenerateTypeValue(f.FieldType)));
 
-            obj.GetType().GetProperties().ToList()
+            obj.GetType()
+                .GetProperties()
+                .ToList()
                 .ForEach(p => p.SetValue(obj, GenerateTypeValue(p.PropertyType)));
         }
 
