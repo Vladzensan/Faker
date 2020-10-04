@@ -1,2 +1,0 @@
-C:\Users\Vladzensan\source\repos\FakerSolution\Faker\obj\Debug\Faker.csprojAssemblyReference.cache
-C:\Users\Vladzensan\source\repos\FakerSolution\Faker\obj\Debug\Faker.csproj.CoreCompileInputs.cache
