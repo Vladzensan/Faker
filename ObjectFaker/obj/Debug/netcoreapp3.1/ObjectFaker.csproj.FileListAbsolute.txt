@@ -10,3 +10,7 @@ C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\obj\Debug\netcoreapp3
 C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\obj\Debug\netcoreapp3.1\ObjectFaker.csproj.CopyComplete
 C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\obj\Debug\netcoreapp3.1\ObjectFaker.dll
 C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\obj\Debug\netcoreapp3.1\ObjectFaker.pdb
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\bin\Debug\netcoreapp3.1\ObjectFaker.exe
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\bin\Debug\netcoreapp3.1\ObjectFaker.runtimeconfig.json
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\bin\Debug\netcoreapp3.1\ObjectFaker.runtimeconfig.dev.json
+C:\Users\Vladzensan\source\repos\FakerSolution\ObjectFaker\obj\Debug\netcoreapp3.1\ObjectFaker.genruntimeconfig.cache

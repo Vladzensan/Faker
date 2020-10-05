@@ -1,6 +1,4 @@
-﻿using Faker;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -10,56 +8,40 @@ namespace ObjectFaker
     class PluginLoader<T>
     {
 
-        public List<T> LoadPlugins(String[] pluginPaths)
+        private string _pluginPath;
+
+        public List<T> Plugins { get; }
+
+        public PluginLoader(string pluginPath)
         {
-            return pluginPaths.SelectMany(pluginPath =>
-            {
-                Assembly pluginAssembly = LoadAssembly(pluginPath);
-                return CreateGenerators(pluginAssembly);
-            }).ToList();
+            Plugins = new List<T>();
+            _pluginPath = pluginPath;
+            RefreshPlugins();
         }
 
-        private Assembly LoadAssembly(string relativePath)
+        private void RefreshPlugins()
         {
-            // Navigate up to the solution root
-            string root = Path.GetFullPath(Path.Combine(
-                Path.GetDirectoryName(
-                    Path.GetDirectoryName(
-                        Path.GetDirectoryName(
-                            Path.GetDirectoryName(
-                                Path.GetDirectoryName(typeof(Program).Assembly.Location)))))));
+            Plugins.Clear();
 
-            string pluginLocation = Path.GetFullPath(Path.Combine(root,
-                relativePath.Replace('\\', Path.DirectorySeparatorChar)));
-            Console.WriteLine($"Loading commands from: {pluginLocation}");
-            PluginLoadContext loadContext = new PluginLoadContext(pluginLocation);
-            return loadContext.LoadFromAssemblyName(
-                new AssemblyName(Path.GetFileNameWithoutExtension(pluginLocation)));
-        }
-
-        private IEnumerable<T> CreateGenerators(Assembly assembly)
-        {
-            int count = 0;
-
-            foreach (Type type in assembly.GetTypes())
+            DirectoryInfo pluginDirectory = new DirectoryInfo(_pluginPath);
+            if (!pluginDirectory.Exists)
             {
-                if (typeof(T).IsAssignableFrom(type))
-                {
-                    T result = (T)Activator.CreateInstance(type);
-                    if (result != null)
-                    {
-                        count++;
-                        yield return result;
-                    }
-                }
+                pluginDirectory.Create();
+                return;
             }
 
-            if (count == 0)
+            var pluginFiles = Directory.GetFiles(_pluginPath, "*.dll");
+            foreach (var file in pluginFiles)
             {
-                string availableTypes = string.Join(",", assembly.GetTypes().Select(t => t.FullName));
-                throw new ApplicationException(
-                    $"Can't find any type which implements IGenerator in {assembly} from {assembly.Location}.\n" +
-                    $"Available types: {availableTypes}");
+                Assembly asm = Assembly.LoadFrom(file);
+                var types = asm.GetTypes().
+                    Where(t => t.GetInterfaces().
+                        Where(i => i.FullName == typeof(T).FullName).Any());
+                foreach (var type in types)
+                {
+                    var plugin = (T)asm.CreateInstance(type.FullName);
+                    Plugins.Add(plugin);
+                }
             }
         }
 

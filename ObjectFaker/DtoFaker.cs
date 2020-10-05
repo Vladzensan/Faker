@@ -20,7 +20,7 @@ namespace Faker
                 return default(T);
             }
 
-            ConstructorInfo constructor = type.GetConstructor(new Type[0]); // no-arg constructor
+            var constructor = typeof(T).GetConstructor(BindingFlags.NonPublic | BindingFlags.Instance, null, new Type[0], null);
             object obj = constructor.Invoke(null);
 
             SetFieldsAndProps(obj);

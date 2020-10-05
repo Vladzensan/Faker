@@ -11,17 +11,10 @@ namespace Faker
         private List<IGenerator> generators;
 
 
-        public GeneratorBundle()
+        public GeneratorBundle(string pluginsPath)
         {
-            PluginLoader<IGenerator> loader = new PluginLoader<IGenerator>();
-
-            string[] pluginPaths =
-           {
-                @"PrimitivesGenerator\bin\Debug\BaseTypeGenerator.dll",
-                @"DateTimeGenerator\bin\Debug\DateTimeGenerator.dll"
-            };
-
-            generators = loader.LoadPlugins(pluginPaths);
+            PluginLoader<IGenerator> loader = new PluginLoader<IGenerator>(pluginsPath);
+            generators = loader.Plugins;
 
         }
         public GeneratorBundle(List<IGenerator> generators)
