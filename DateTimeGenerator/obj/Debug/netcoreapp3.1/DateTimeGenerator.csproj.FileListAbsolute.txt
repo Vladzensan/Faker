@@ -1,0 +1,4 @@
+C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\netcoreapp3.1\DateTimeGenerator.csprojAssemblyReference.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\netcoreapp3.1\DateTimeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\netcoreapp3.1\DateTimeGenerator.AssemblyInfoInputs.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\netcoreapp3.1\DateTimeGenerator.AssemblyInfo.cs

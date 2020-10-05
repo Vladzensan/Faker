@@ -1,9 +1,0 @@
-C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\bin\Debug\DateTimeGenerator.dll
-C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\bin\Debug\DateTimeGenerator.pdb
-C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\bin\Debug\PluginBase.dll
-C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\bin\Debug\PluginBase.pdb
-C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\DateTimeGenerator.csprojAssemblyReference.cache
-C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\DateTimeGenerator.csproj.CoreCompileInputs.cache
-C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\DateTimeGenerator.csproj.CopyComplete
-C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\DateTimeGenerator.dll
-C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\DateTimeGenerator.pdb

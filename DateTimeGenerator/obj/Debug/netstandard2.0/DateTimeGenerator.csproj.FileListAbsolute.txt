@@ -1,0 +1,9 @@
+C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\bin\Debug\netstandard2.0\DateTimeGenerator.deps.json
+C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\bin\Debug\netstandard2.0\DateTimeGenerator.dll
+C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\bin\Debug\netstandard2.0\DateTimeGenerator.pdb
+C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\netstandard2.0\DateTimeGenerator.csprojAssemblyReference.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\netstandard2.0\DateTimeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\netstandard2.0\DateTimeGenerator.AssemblyInfoInputs.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\netstandard2.0\DateTimeGenerator.AssemblyInfo.cs
+C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\netstandard2.0\DateTimeGenerator.dll
+C:\Users\Vladzensan\source\repos\FakerSolution\DateTimeGenerator\obj\Debug\netstandard2.0\DateTimeGenerator.pdb
