@@ -1,9 +1,0 @@
-C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\bin\Debug\PrimitivesGenerator.dll
-C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\bin\Debug\PrimitivesGenerator.pdb
-C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\bin\Debug\PluginBase.dll
-C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\bin\Debug\PluginBase.pdb
-C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\obj\Debug\PrimitivesGenerator.csprojAssemblyReference.cache
-C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\obj\Debug\PrimitivesGenerator.csproj.CoreCompileInputs.cache
-C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\obj\Debug\PrimitivesGenerator.csproj.CopyComplete
-C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\obj\Debug\PrimitivesGenerator.dll
-C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\obj\Debug\PrimitivesGenerator.pdb

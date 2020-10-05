@@ -1,6 +1,6 @@
 ﻿using PluginBase;
 using System;
-using System.Linq;
+using System.Text;
 
 namespace PrimitivesGenerator
 {
@@ -53,9 +53,15 @@ namespace PrimitivesGenerator
 
         private String GenerateString()
         {
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-            return new string(Enumerable.Repeat(chars, _random.Next())
-              .Select(s => s[_random.Next(s.Length)]).ToArray());
+            int length = _random.Next(10, 20);
+            var builder = new StringBuilder(length);
+
+            for (int i = 0; i < length; i++)
+            {
+                 builder.Append((char)_random.Next('A', 'z'));
+            }
+
+            return builder.ToString();
         }
 
         public bool IsGeneratable(Type type)

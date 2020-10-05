@@ -1,0 +1,9 @@
+C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\bin\Debug\netstandard2.0\PrimitivesGenerator.deps.json
+C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\bin\Debug\netstandard2.0\PrimitivesGenerator.dll
+C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\bin\Debug\netstandard2.0\PrimitivesGenerator.pdb
+C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\obj\Debug\netstandard2.0\PrimitivesGenerator.csprojAssemblyReference.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\obj\Debug\netstandard2.0\PrimitivesGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\obj\Debug\netstandard2.0\PrimitivesGenerator.AssemblyInfoInputs.cache
+C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\obj\Debug\netstandard2.0\PrimitivesGenerator.AssemblyInfo.cs
+C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\obj\Debug\netstandard2.0\PrimitivesGenerator.dll
+C:\Users\Vladzensan\source\repos\FakerSolution\PrimitivesGenerator\obj\Debug\netstandard2.0\PrimitivesGenerator.pdb

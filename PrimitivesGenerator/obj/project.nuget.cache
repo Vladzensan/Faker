@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/IeLNivus1tVXZ5EzZArQkyhBlBU0bMq2uGdd6efPVda5kKc+hB8tuiqTm1OIUE3sIMk/htc3N7tLpb2nexxcA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vladzensan\\source\\repos\\FakerSolution\\PrimitivesGenerator\\PrimitivesGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vladzensan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Vladzensan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
