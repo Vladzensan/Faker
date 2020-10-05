@@ -27,7 +27,7 @@ namespace Faker
 
             typesProcessed.Push(typeof(T));
 
-            var constructor = typeof(T).GetConstructor(BindingFlags.NonPublic | BindingFlags.Instance, null, new Type[0], null);
+            var constructor = typeof(T).GetConstructor(BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Public, null, new Type[0], null);
             object obj = constructor.Invoke(null);
 
             SetFieldsAndProps(obj);
